@@ -20,6 +20,20 @@
     <!-- <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.14/dist/lenis.css"> -->
     <!-- external Style  -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://dasmeet9.github.io/model/style.css">
+    <script>
+        // Configure the chatbot
+        window.aiAgentConfig = {
+            backendUrl: "http://127.0.0.1:5000/api",
+            messages: {
+                welcome: "Hello! I'm your AI assistant.",
+                namePrompt: "Could you please share your name with me?",
+                welcomeBack: "Hello {name}! How may I assist you today?",
+                phonePrompt: "Thank you {name}! May I have your Mobile Number?",
+                emailPrompt: "Please enter your email to receive a transcript of this chat."
+            }
+        };
+    </script>
     <!-- favicon  -->
      <link rel="shortcut icon" href="./Meandering/Images/Logo.png" type="image/x-icon">
     <!-- Google Fonts  -->
@@ -771,6 +785,8 @@
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
         <!-- Animation js  -->
+        <script src="https://dasmeet9.github.io/model/aii.js"></script>
+
         <script src="script.js"></script>  
 
 </body>
